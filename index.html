@@ -10,21 +10,51 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>W.T.C Study Guide</title>
 </head>
-<body>
+
+<body class="container" id="body">
+
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="nav nav-pills">
-                    <li role="presentation" class="active"><a href="#">Home</a></li>
-                    <li role="presentation"><a href="#">HTML/CSS</a></li>
-                    <li role="presentation"><a href="#">BootStrap</a></li>
-                    <li role="presentation"><a href="#">Git</a></li>
-                    <li role="presentation"><a href="#">JavaScript</a></li>
+        <nav class="navbar navbar-pills" id="nav_edit">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" data-toggle="collapse" type="button" data-target="#navbar" id="spans">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#">
+                    <img class="logo" src="imgs/women-logo2.png" alt="logo">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav" id="nav_position">
+                    <li class="active">
+                        <a href="#">
+                            Home<span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#HTML/CSS">HTML/CSS</a>
+                    </li>
+                    <li>
+                        <a href="#Bootstrap">Bootstrap</a>
+                    </li>
+                    <li>
+                        <a href="#JavaScript">JavaScript</a>
+                    </li>
+                    <li>
+                        <a href="#Git">Git</a>
+                    </li>
                 </ul>
             </div>
-        </div>
+        </nav>
     </div>
+
+
+    <!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
