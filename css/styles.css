@@ -17,13 +17,11 @@
     background-color: #5cd0d4;
     margin-top: 25px;
 }
-.icon-bar{
+#nav_edit > .icon-bar{
     background-color: #000000;
 }
 
 #nav_edit{
-    background-color: #000000;
-    margin-top: 10px;
     border-bottom: 2px solid #5cd0d4;
     color: #5cd0d4;
     font-weight: bold;
@@ -61,12 +59,6 @@ ul.nav a:hover{
     height: 500px;
 }
 
-h1{
-    font-size: 55px;
-    font-weight: bold;
-    
-}
-
 .hero_text{
     color: #5cd0d4;
     font-size: 30px;
@@ -74,6 +66,12 @@ h1{
     text-align: center;
     margin-top: 185px;
     text-shadow: 3px 3px #000000;
+}
+
+.header{
+    font-size: 55px;
+    font-weight: bold;
+    
 }
 /**** END OF HERO ****/
 
@@ -108,5 +106,9 @@ h1{
 }
 
 /**** END OF LINK BOX ****/
+
+.info{
+    background-color: rgba(65, 63, 63, 0.13);
+}
 
 /* background-color: #70e4d4; */
