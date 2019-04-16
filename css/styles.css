@@ -1,4 +1,118 @@
-.container{
-    height:100vh;
-    background-color: black;
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+
+#body{
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #000000;
 }
+.container{
+    height: 100vh;
+    background-color: #000000;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/**** START OF NAVBAR ****/
+#spans{
+    background-color: #5cd0d4;
+    margin-top: 25px;
+}
+#nav_edit > .icon-bar{
+    background-color: #000000;
+}
+
+#nav_edit{
+    border-bottom: 2px solid #5cd0d4;
+    color: #5cd0d4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#nav_position{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.logo{
+    height: 100px;
+}
+
+a{
+    color: #5cd0d4;
+}
+
+ul.nav a:hover{
+    color: #800064;
+    background-color: #5cd0d4;
+    border-radius: 8px;
+}
+/**** END OF NAVBAR ****/
+
+
+/**** START OF HERO ****/
+.hero{
+    background-image: url("/imgs/code-books.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+
+.hero_text{
+    color: #5cd0d4;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 185px;
+    text-shadow: 3px 3px #000000;
+}
+
+.header{
+    font-size: 55px;
+    font-weight: bold;
+    
+}
+/**** END OF HERO ****/
+
+/**** START OF LINK BOX ****/
+.boxes{
+    margin-top: 25px;
+}
+
+.links, .list-group-item{
+    background-color: rgba(65, 63, 63, 0.363);
+    color: #5cd0d4;
+    text-shadow: 1px 1px #000000;
+}
+
+.links{
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+.title{
+    /* border-bottom: 2px solid #000000; */
+    text-align: center;
+    font-weight: bold;
+    padding-left: 16px;
+}
+
+ a.list-group-item{
+     text-align: center;
+     color: #800064;
+    border: thin solid #000000;
+    margin-left: 10px;
+}
+/**** END OF LINK BOX ****/
+
+.info{
+    height: 260px;
+    text-align: center;
+}
+.quote_align{
+    margin-top: 45px;
+    color: #800064;
+}
+
+/* background-color: #70e4d4; */

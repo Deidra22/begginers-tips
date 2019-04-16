@@ -10,21 +10,87 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>W.T.C Study Guide</title>
 </head>
-<body>
+
+<body class="container" id="body" onload="newQuote()">
+
+    <!---- NAVBAR START ---->
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="nav nav-pills">
-                    <li role="presentation" class="active"><a href="#">Home</a></li>
-                    <li role="presentation"><a href="#">HTML/CSS</a></li>
-                    <li role="presentation"><a href="#">BootStrap</a></li>
-                    <li role="presentation"><a href="#">Git</a></li>
-                    <li role="presentation"><a href="#">JavaScript</a></li>
+        <nav class="navbar navbar-pills" id="nav_edit">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" data-toggle="collapse" type="button" data-target="#navbar"
+                    id="spans">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#">
+                    <img class="logo" src="imgs/women-logo2.png" alt="logo">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav" id="nav_position">
+                    <li class="active">
+                        <a href="#">
+                            Home<span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#HTML/CSS">HTML/CSS</a>
+                    </li>
+                    <li>
+                        <a href="#Bootstrap">Bootstrap</a>
+                    </li>
+                    <li>
+                        <a href="#JavaScript">JavaScript</a>
+                    </li>
+                    <li>
+                        <a href="#Git">Git</a>
+                    </li>
                 </ul>
             </div>
+        </nav>
+        <!---- NAVBAR END ---->
+
+        <!---- START OF HERO ---->
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 hero">
+                <div class="hero_text">
+                    <h1 class="header"> Women's Tech Study Guide!</h1>
+                    <p>This site is here to help you ladies study.</p>
+                </div>
+            </div>
+        </div>
+        <!---- END OF HERO ---->
+
+        <!---- START OF LINK BOX ---->
+        <div class="row boxes">
+            <div class="list-group links col-md-4 col-md-offset-1">
+                <h3 class="title">Websites to Remember</h3>
+                <a href="https://pratimasakinala.github.io/womenTechTraining/#/lessons/1/1" target="_blank"
+                    class="list-group-item">Women's Tech Class</a>
+                <a href="https://www.w3schools.com/html/default.asp" target="_blank" class="list-group-item">w3schools</a>
+                <a href="https://stackoverflow.com/" target="_blank" class="list-group-item">Stack Overflow</a>
+                <a href="https://www.freecodecamp.org/" target="_blank" class="list-group-item">Free Code Camp</a>
+            </div>
+            <!---- END OF LINK BOX ---->
+
+            <div class="col-md-5 col-md-offset-1 links info" >
+                <h1>Get Motivated!</h1>
+                <p id="quoteDisplay" class="quote_align"></p>
+            </div>
+            
         </div>
     </div>
+
+
+
+
+    <!-- Javascript -->
+    <script src="js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
