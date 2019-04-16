@@ -1,4 +1,81 @@
-.container{
-    height:100vh;
-    background-color: black;
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+
+#body{
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #5cd0d4;
 }
+.container{
+    height: 100vh;
+    background-color: #000000;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/**** START OF NAVBAR ****/
+#spans{
+    background-color: #5cd0d4;
+    margin-top: 25px;
+}
+.icon-bar{
+    background-color: #000000;
+}
+
+#nav_edit{
+    background-color: #000000;
+    margin-top: 10px;
+    border-bottom: 2px solid #5cd0d4;
+    color: #5cd0d4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#nav_position{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.logo{
+    height: 100px;
+}
+
+a{
+    color: #5cd0d4;
+}
+
+ul.nav a:hover{
+    color: #800064;
+    background-color: #5cd0d4;
+    border-radius: 8px;
+}
+/**** END OF NAVBAR ****/
+
+
+/**** START OF JUMBOTRON ****/
+.jumbotron, .links, .list-group-item{
+    background-color: #5cd0d4;
+    color: #800064;
+}
+/**** END OF JUMBOTRON ****/
+
+/**** START OF LINK SECTION ****/
+.links{
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+}
+.title{
+    border-bottom: 2px solid #000000;
+    text-align: center;
+}
+
+ a.list-group-item{
+     text-align: center;
+     color: #800064;
+    border: thin dotted #000000;
+    margin-left: 10px;
+}
+
+/**** END OF LINK SECTION ****/
+
+/* background-color: #70e4d4; */
