@@ -81,7 +81,7 @@ ul.nav a:hover{
 }
 
 .links, .list-group-item{
-    background-color: rgba(65, 63, 63, 0.13);
+    background-color: rgba(65, 63, 63, 0.363);
     color: #5cd0d4;
     text-shadow: 1px 1px #000000;
 }
@@ -104,11 +104,15 @@ ul.nav a:hover{
     border: thin solid #000000;
     margin-left: 10px;
 }
-
 /**** END OF LINK BOX ****/
 
 .info{
-    background-color: rgba(65, 63, 63, 0.13);
+    height: 260px;
+    text-align: center;
+}
+.quote_align{
+    margin-top: 45px;
+    color: #800064;
 }
 
 /* background-color: #70e4d4; */
