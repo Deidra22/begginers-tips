@@ -115,4 +115,14 @@ ul.nav a:hover{
     color: #800064;
 }
 
+
+.footer{
+    height: 70px;
+    background-color: #800064;
+}
+
+.social_tags{
+    margin: 10px 10px 10px 10px;
+}
+
 /* background-color: #70e4d4; */
